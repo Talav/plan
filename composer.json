@@ -1,7 +1,7 @@
 {
     "name": "talav/user",
-    "description": "Plan and plan feature functionality for SaaS applications",
-    "keywords": ["symfony", "bundle", "subscription", "php"],
+    "description": "Basic media component",
+    "keywords": ["symfony", "bundle", "media", "php"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,7 +12,10 @@
     ],
     "require": {
         "php": "^7.4",
-        "symfony/security": "^4.4",
+        "symfony/security-guard": "^5.1",
+        "symfony/security-http": "^5.1",
+        "symfony/security-csrf": "^5.1",
+        "symfony/security-core": "^5.1",
         "talav/resource": "@dev"
     },
     "require-dev": {
